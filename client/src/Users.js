@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import fire from './fire';
+import './Users.css';
 
 export default class Users extends Component {
     constructor() {
@@ -54,7 +55,7 @@ export default class Users extends Component {
             onChange={this.updateInput}
           />
           <br></br><br></br>
-          <button type="submit">Submit</button>
+          <button className="button" type="submit">Submit</button>
         </form>
             </div>
         )
