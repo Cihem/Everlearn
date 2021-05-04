@@ -39,19 +39,21 @@ export default class Users extends Component {
     render() {
         return (
             <div>
+                <h2>Everlearn</h2>
                  <form onSubmit={this.addUser}>
           <input
             type="text"
             name="fullName"
             placeholder="Full name"
             onChange={this.updateInput}
-          />
+          /><br></br><br></br>
           <input
             type="email"
             name="email"
             placeholder="Email"
             onChange={this.updateInput}
           />
+          <br></br><br></br>
           <button type="submit">Submit</button>
         </form>
             </div>
