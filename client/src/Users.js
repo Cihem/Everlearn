@@ -40,7 +40,7 @@ export default class Users extends Component {
     render() {
         return (
             <div>
-                <h2>Everlearn</h2>
+               <h2><span className="ever">Ever</span><span className="learn">Learn</span></h2>
                  <form onSubmit={this.addUser}>
           <input
             type="text"
