@@ -5,3 +5,11 @@
 .learn {
     color: blue
 }
+
+.loginButton {
+    background-color: rgb(112, 170, 218) ;
+    width: 150px;
+    border-radius: 10px;
+    border: black;
+    height: 25px;
+}
